@@ -1,7 +1,6 @@
 
 Pod::Spec.new do |spec|
 
-
   spec.name         = 'ToastXCFramework'
   spec.version      = '0.0.1'
   spec.summary      = 'your pods summary will be here .'

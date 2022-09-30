@@ -1,0 +1,11 @@
+framework module ToastXCFramework {
+  umbrella header "ToastXCFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module ToastXCFramework.Swift {
+  header "ToastXCFramework-Swift.h"
+  requires objc
+}
